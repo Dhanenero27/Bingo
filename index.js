@@ -11,13 +11,13 @@ function generateRandomNumber(max) {
     } else if  (randomNum >= 16 && randomNum <= 30) {
         return console.log(`Random number ${randomNum} is in I. 16 - 30`);
 
-    } else if  (randomNum >= 16 && randomNum <= 45) {
+    } else if  (randomNum >= 31 && randomNum <= 45) {
         return console.log(`Random number ${randomNum} is in N. 31 - 45`);
 
-    } else if  (randomNum >= 16 && randomNum <= 60) {
+    } else if  (randomNum >= 46 && randomNum <= 60) {
         return console.log(`Random number ${randomNum} is in G. 46 - 60`);
 
-    } else if  (randomNum >= 16 && randomNum <= 75) {
+    } else if  (randomNum >= 61 && randomNum <= 75) {
         return console.log(`Random number ${randomNum} is in O. 61 - 75`);
         
         return console.log (`Random number is invalid`);
